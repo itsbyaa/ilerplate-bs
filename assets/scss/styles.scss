@@ -1,0 +1,71 @@
+// VARIABLES //
+// --------- //
+
+// FONTS
+// Make your font variables here.
+
+$playfair: 'Playfair Display', serif;
+$muli: 'Muli', sans-serif;
+
+// COLORS
+// Make your color variables here.
+
+$black: #000;
+$white: #fff;
+
+//TRANSITIONS
+
+$ease: all 200ms ease;
+
+// DEFAULTS //
+// -------- //
+
+// Relative body in case of absolutely positioned items
+// W x H defaults prevent footers from floating up if content
+// doesn't fill the whole page. 
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+// ANCHOR CLASS
+// Create divs with this class to make in-page anchors.
+// Change "top" to whatever the height of your header is.
+// This trick allows you to jump to exactly the top of a
+// section in the page while leaving spacing for your header.
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+// IMAGE WRAP
+// Some people like to wrap all their images in a div or anchor tag.
+// I'm one of those people. Useful for creating image links.
+// Defaults to full width of container.
+
+.imgWrap {
+    display: block;
+    img {
+        width: inherit;
+        height: auto;
+    }
+}
+
+// BEGIN CUSTOM SCSS
+// Mobile first, then up to tablet, then above tablet.
+// Add additional media queries as necessary for larger
+// devices with mor complex layouts.
+
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1030px) {
+    
+}
+
+// END CUSTOM SCSS
